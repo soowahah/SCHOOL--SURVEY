@@ -1,0 +1,56 @@
+/* Body layout */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(179, 122, 225);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Container wrapper */
+.container {
+    text-align: center;
+}
+
+/* Header text style */
+.header_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+/* GIF container */
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Button container (to center the button) */
+.button_container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Next button styling */
+.next_button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #4cacaf;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.next_button:hover {
+    background-color: #fc6060;
+    transform: scale(1.05);
+}
